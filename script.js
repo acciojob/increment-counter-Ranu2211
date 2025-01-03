@@ -1,10 +1,11 @@
 //your JS code here. If required.
 const button = document.getElementById('btn');
-const count =  document.getElementById('count');
-let counter = 0;
-count.textContent = counter;
+const counter =  document.getElementById('counter');
+let count = 0;
+counter.textContent = count;
 button.addEventListener("click", ()=> {
-	counter+=1;
-	alert(counter);
-	count.textContent = counter;
+	alert(count);
+	count +=1;
+	
+	counter.textContent = count;
 })
